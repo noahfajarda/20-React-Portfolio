@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles/index.css";
+import CarouselComponent from "./components/Carousel";
 
 function App() {
     const [theme, setTheme] = useState("light");
@@ -117,6 +118,8 @@ function App() {
                     </section>
                 </section>
             </section>
+
+            <section>{/* <CarouselComponent /> */}</section>
         </div>
     );
 }
