@@ -3,6 +3,7 @@ import img from "../props/img2.jpg";
 import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 import React, { useEffect } from "react";
+import test from "../props/react.png";
 
 function Home() {
     const handleClick = () => {
