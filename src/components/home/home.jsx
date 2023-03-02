@@ -15,7 +15,9 @@ function Home() {
         <div id="home" className="container home-container">
             <div className="logo" onClick={handleClick}>
                 <div className="main-img">
-                    <span className="circle"></span>
+                    <span className="circle">
+                        <div className="test">React</div>
+                    </span>
                     <span className="circle"></span>
                     <span className="circle"></span>
                     <span className="circle"></span>

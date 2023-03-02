@@ -3,7 +3,7 @@
     top: 10px;
 }
 
-.qualification-container {
+.qualifications-container {
     position: absolute;
     display: flex;
     justify-content: start;
@@ -16,7 +16,7 @@
     user-select: none;
 }
 
-.qualification-container .qualification {
+.qualifications-container .qualification {
     position: relative;
     height: 550px;
     min-width: 40%;
@@ -44,6 +44,15 @@
     margin-top: 20px;
 }
 
+.qualifications-container .qualification .content {
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.qualifications-container .qualification .content:hover {
+    opacity: 0.8;
+}
+
 .qualifications-container .qualification .content.html {
     background: url(../props/html.png);
     background-position: center;
@@ -57,7 +66,7 @@
 }
 
 .qualifications-container .qualification .content.javascript {
-    background: url(../props/js.png);
+    background: url(../props/javascript.png);
     background-position: center;
     background-size: 90px;
 }

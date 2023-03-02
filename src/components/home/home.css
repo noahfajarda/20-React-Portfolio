@@ -42,6 +42,20 @@
         transform: rotate(360deg);
     }
 }
+@keyframes spin2 {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.main-img.active .test {
+    z-index: 10000;
+    animation: spin2 8s linear 1s infinite;
+}
+
+.tests {
+    animation: spin2 8s linear 1s infinite;
+}
 
 .home-container .logo .circle {
     position: absolute;
@@ -95,6 +109,7 @@
 .home-container .logo .main-img.active .circle:nth-child(5) {
     background: url(../props/sql.png);
     background-size: cover;
+    border-radius: 0;
     background-position: center;
     position: absolute;
     transform: translateY(210%);
@@ -103,6 +118,7 @@
 .home-container .logo .main-img.active .circle:nth-child(6) {
     background: url(../props/mongo.png);
     background-size: cover;
+    border-radius: 0;
     background-position: center;
     position: absolute;
     transform: translate(-150%, 150%);
@@ -112,6 +128,7 @@
     background: url(../props/html.png);
     background-size: cover;
     background-position: center;
+    border-radius: 0;
     position: absolute;
     transform: translateX(210%);
 }
