@@ -62,7 +62,7 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: rgb(4, 4, 44);
+    /* background-color: rgb(4, 4, 44); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,14 +83,22 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(2) {
-    background: url(../props/javascript.png);
-    background-size: cover;
-    background-position: center;
     position: absolute;
     transform: translate(150%, -150%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(3) {
+.home-container .logo .main-img.active .circle:nth-child(2) .inner {
+    background: url(../props/javascript.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.home-container .logo .main-img.active .circle:nth-child(3) .inner {
     background: url(../props/node.png);
     background-size: cover;
     background-position: center;
@@ -98,7 +106,7 @@
     transform: translateX(-210%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(4) {
+.home-container .logo .main-img.active .circle:nth-child(4) .inner {
     background: url(../props/css.png);
     background-size: cover;
     background-position: center;

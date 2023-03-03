@@ -18,13 +18,27 @@ function Home() {
                     <span className="circle">
                         <div className="test">React</div>
                     </span>
-                    <span className="circle"></span>
-                    <span className="circle"></span>
-                    <span className="circle"></span>
-                    <span className="circle"></span>
-                    <span className="circle"></span>
-                    <span className="circle"></span>
-                    <span className="circle"></span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
+                    <span className="circle">
+                        <span className="inner"></span>
+                    </span>
                 </div>
                 <img id="main-image" src={img} alt="" />
             </div>
