@@ -62,7 +62,6 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    /* background-color: rgb(4, 4, 44); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,11 +74,18 @@
 }
 
 .home-container .logo .main-img.active .circle:nth-child(1) {
+    position: absolute;
+    transform: translateY(-210%);
+}
+
+.home-container .logo .main-img.active .circle:nth-child(1) .inner {
     background: url(../props/react.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
     background-size: cover;
     background-position: center;
     position: absolute;
-    transform: translateY(-210%);
 }
 
 .home-container .logo .main-img.active .circle:nth-child(2) {
@@ -92,61 +98,99 @@
     animation: spin2 8s linear 1s infinite;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
     background-size: cover;
     background-position: center;
     position: absolute;
 }
 
-.home-container .logo .main-img.active .circle:nth-child(3) .inner {
-    background: url(../props/node.png);
-    background-size: cover;
-    background-position: center;
+.home-container .logo .main-img.active .circle:nth-child(3) {
     position: absolute;
     transform: translateX(-210%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(4) .inner {
-    background: url(../props/css.png);
+.home-container .logo .main-img.active .circle:nth-child(3) .inner {
+    background: url(../props/node.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
     background-size: cover;
     background-position: center;
+    position: absolute;
+}
+
+.home-container .logo .main-img.active .circle:nth-child(4) {
     position: absolute;
     transform: translate(150%, 150%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(5) {
-    background: url(../props/sql.png);
+.home-container .logo .main-img.active .circle:nth-child(4) .inner {
+    background: url(../props/css.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
     background-size: cover;
-    border-radius: 0;
     background-position: center;
+    position: absolute;
+}
+
+.home-container .logo .main-img.active .circle:nth-child(5) {
     position: absolute;
     transform: translateY(210%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(6) {
-    background: url(../props/mongo.png);
+.home-container .logo .main-img.active .circle:nth-child(5) .inner {
+    background: url(../props/sql.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
     background-size: cover;
-    border-radius: 0;
     background-position: center;
+    position: absolute;
+}
+
+.home-container .logo .main-img.active .circle:nth-child(6) {
     position: absolute;
     transform: translate(-150%, 150%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(7) {
-    background: url(../props/html.png);
+.home-container .logo .main-img.active .circle:nth-child(6) .inner {
+    background: url(../props/mongo.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
     background-size: cover;
     background-position: center;
-    border-radius: 0;
+    position: absolute;
+}
+
+.home-container .logo .main-img.active .circle:nth-child(7) {
     position: absolute;
     transform: translateX(210%);
 }
 
-.home-container .logo .main-img.active .circle:nth-child(8) {
-    background: url(../props/git.png);
+.home-container .logo .main-img.active .circle:nth-child(7) .inner {
+    background: url(../props/html.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
     background-size: cover;
     background-position: center;
     position: absolute;
+}
+
+.home-container .logo .main-img.active .circle:nth-child(8) {
+    position: absolute;
     transform: translate(-150%, -150%);
+}
+
+.home-container .logo .main-img.active .circle:nth-child(8) .inner {
+    background: url(../props/git.png);
+    animation: spin2 8s linear 1s infinite;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
 }
 
 .home-container img {

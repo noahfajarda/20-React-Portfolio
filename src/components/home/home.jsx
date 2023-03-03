@@ -16,7 +16,7 @@ function Home() {
             <div className="logo" onClick={handleClick}>
                 <div className="main-img">
                     <span className="circle">
-                        <div className="test">React</div>
+                        <span className="inner"></span>
                     </span>
                     <span className="circle">
                         <span className="inner"></span>
