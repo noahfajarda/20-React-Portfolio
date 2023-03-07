@@ -1,7 +1,7 @@
 import "./contact.css";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Contact() {
     return (
@@ -33,9 +33,9 @@ function Contact() {
                     target="_blank"
                     className="contact instagram"
                 >
-                    <AiOutlineInstagram className="icon" />
+                    <AiOutlineMail className="icon" />
                     <h2>
-                        instagram <span>noahjfa</span>
+                        Gmail <span>nlicupfa@uci.edu</span>
                     </h2>
                 </a>
             </div>

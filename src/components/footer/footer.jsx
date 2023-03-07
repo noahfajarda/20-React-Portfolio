@@ -10,7 +10,7 @@ function Footer() {
     return (
         <div id="footer" className="container footer-container">
             <h1>
-                That's all
+                Visit My Socials To Connect With Me!
                 <a href="#home">
                     <h2>
                         <BsMouse />- scroll up-
@@ -21,16 +21,19 @@ function Footer() {
                 <a href="https://www.instagram.com/noahjfa/" target="_blank">
                     <BsInstagram className="social" />
                 </a>
-                <a href="#">
+                <a
+                    href="https://www.facebook.com/noah.fajarda/"
+                    target="_blank"
+                >
                     <FaFacebookF className="social" />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/noahyobro" target="_blank">
                     <BsTwitter className="social" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/noahjfa/" target="_blank">
                     <TiSocialYoutube className="social" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/noahfajarda" target="_blank">
                     <TiSocialGithub className="social" />
                 </a>
             </div>
