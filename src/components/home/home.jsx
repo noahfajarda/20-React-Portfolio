@@ -1,5 +1,5 @@
 import "./home.css";
-import img from "../props/img2.jpg";
+import img from "../props/profile-pic.png";
 import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 import React, { useEffect } from "react";
@@ -51,14 +51,32 @@ function Home() {
             <h2>
                 <span>About Me</span> <br />
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laudantium quas, natus neque, aspernatur totam iste quis
-                    consectetur soluta quo nihil quia repellat exercitationem et
-                    sint corrupti assumenda dolore ipsum? Itaque? Ullam,
-                    assumenda! Obcaecati porro tempore nihil officiis qui velit
-                    possimus minus at assumenda ad ratione totam repellat
-                    quisquam, fuga non voluptate quas nemo magnam aperiam. Neque
-                    a corrupti dicta labore.
+                    Welcome to my portfolio! I'm an aspiring software developer
+                    residing in the Bay Area. I recently graduated from the
+                    University of California, Irvine in the field of Health
+                    Sciences. I have a wide variety of projects including
+                    sports, music, movies and tech.
+                    <br />
+                    <br />
+                    <p>
+                        At this moment, I manage products and inventory, create
+                        datasheets, and prepare estimates for a company in Santa
+                        Clara, CA called T1Nexus. My passion of sports mainly
+                        stems out toward basketball, as I always find time to
+                        either play, practice, analyze, or watch the sport. I
+                        always try to find ways to improve my craft in the sport
+                        so that I can be better than the day before.
+                    </p>
+                    <br />
+                    <p>
+                        Piano and guitar are the main instruments I practice and
+                        I look for songs that interest me to practice in order
+                        to stay motivated. Technology is also very interesting
+                        to me. Whether it is new innovations or updates to
+                        existing technologies, I always try to keep up to date
+                        with these products through articles, videos, and
+                        podcasts.
+                    </p>
                 </p>
             </h2>
 

@@ -53,40 +53,40 @@
     opacity: 0.8;
 }
 
-.qualifications-container .qualification .content.html {
-    background: url(../props/html.png);
+.qualifications-container .qualification .content.juke-joint {
+    background: url(../props/myWork/juke-joint.png);
     background-position: center;
-    background-size: 60px;
+    background-size: cover;
 }
 
 .qualifications-container .qualification .content.css {
-    background: url(../props/css.png);
+    background: url(../props/myWork/networking-api.png);
     background-position: center;
-    background-size: 60px;
+    background-size: cover;
 }
 
 .qualifications-container .qualification .content.javascript {
-    background: url(../props/javascript.png);
+    background: url(../props/myWork/employee-db.png);
     background-position: center;
-    background-size: 90px;
+    background-size: cover;
 }
 
 .qualifications-container .qualification .content.bootstrap {
-    background: url(../props/bootstrap.png);
+    background: url(../props/myWork/note-taker.png);
     background-position: center;
-    background-size: 60px;
+    background-size: cover;
 }
 
 .qualifications-container .qualification .content.react {
-    background: url(../props/react.png);
+    background: url(../props/myWork/team-profile.png);
     background-position: center;
-    background-size: 90px;
+    background-size: cover;
 }
 
 .qualifications-container .qualification .content.c-plus-plus {
-    background: url(../props/c-plus-plus.png);
+    background: url(../props/myWork/weather-dashboard.png);
     background-position: center;
-    background-size: 60px;
+    background-size: cover;
 }
 
 .qualifications-container .qualification .content.c-sharp {
