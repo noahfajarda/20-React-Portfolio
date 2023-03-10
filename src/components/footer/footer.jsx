@@ -30,9 +30,9 @@ function Footer() {
                 <a href="https://twitter.com/noahyobro" target="_blank">
                     <BsTwitter className="social" />
                 </a>
-                <a href="https://www.instagram.com/noahjfa/" target="_blank">
+                {/* <a href="https://www.instagram.com/noahjfa/" target="_blank">
                     <TiSocialYoutube className="social" />
-                </a>
+                </a> */}
                 <a href="https://github.com/noahfajarda" target="_blank">
                     <TiSocialGithub className="social" />
                 </a>
