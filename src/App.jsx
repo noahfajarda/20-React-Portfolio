@@ -20,7 +20,7 @@ function App() {
             <Navbar />
             <Home />
             <About />
-            <Members />
+            {/* <Members /> */}
             <Contact />
             <Footer />
         </div>
